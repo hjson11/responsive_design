@@ -1,0 +1,135 @@
+
+A:link {
+	color: gray;
+}
+A:visited, A:active {
+	color: green;
+}
+A:hover {
+	text-decoration: overline; 
+	color: teal;
+}
+	
+Body {
+	background-color: white;
+	font-family: cambria;
+	color: gray;	
+}
+
+H1 {
+	font-size: 50pt; 
+	text-align: right;
+}
+
+H2 {
+	font-size: 25pt; 
+	text-align: right;
+}
+H3 {
+	font-size: 10pt; 
+	text-align: center;
+}
+H4 {
+	text-align: center;
+}
+H5 {
+	font-size: 15pt;
+}
+
+P {
+	font-size: 10pt; 
+	font-family: monospace;
+}
+
+Table {
+	width: 400px; 
+	font-family: monospace; 
+	color: white; 
+	background-color: green;
+	margin: .8em;
+	border-color: darkgreen;
+}
+
+
+Form {
+	font-family: monospace; 
+	text-align: center; 
+	color: white; 
+	background-color: green;
+}
+
+@media screen and (max-width: 820px){
+	H1 {
+		font-size: 30pt; 
+		text-align: right;
+	}
+	
+	H2 {
+		font-size: 25pt; 
+		text-align: right;
+	}
+	H3 {
+		font-size: 10pt; 
+		text-align: center;
+	}
+	H4 {
+		text-align: center;
+	}
+	H5 {
+		font-size: 15pt;
+	}
+	
+	P {
+		font-size: 10pt; 
+		font-family: monospace;
+	}
+	Table {
+		width: 350px; 
+		font-family: monospace; 
+		color: white; 
+		background-color: green;
+		margin: .8em;
+		border-color: darkgreen;
+	}
+	img{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	H1 {
+		font-size: 10pt; 
+		text-align: right;
+	}
+	
+	H2 {
+		font-size: 10pt; 
+		text-align: right;
+	}
+	H3 {
+		font-size: 5pt; 
+		text-align: center;
+	}
+	H4 {
+		text-align: center;
+	}
+	H5 {
+		font-size: 7pt;
+	}
+	
+	P {
+		font-size: 4pt; 
+		font-family: monospace;
+	}
+	Table {
+		width: 125px; 
+		font-family: monospace; 
+		color: white; 
+		background-color: green;
+		margin: .8em;
+		border-color: darkgreen;
+	}
+	img{
+		width: 225px;
+	}
+}
